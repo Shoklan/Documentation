@@ -93,3 +93,51 @@ x[i]
 x[i] <- 0
 x
 
+# If you try and insert values into an array, it will repeat the values until the array is full.
+Z <- array(0, c(3,4,2))
+
+# Mixed vector and array arithmatic; recycling rule.
+# RuLES:
+##    1] Expression is scanned form left to right.
+##    2] Any short vector operands are extended bu recucling their values until the match the size of any other operands
+##    3] As long as short vectors and arrays only are encountered, the arrays must all have the same dim attr or error.
+##    4] Any vector operand longer than a matrix or array operand generates an error.
+##    5] If array structures are present and no error or coercion to vector has been precipitated, the result
+##       is an array structure with the common dim attr of its array operands.
+
+# The Outer product of two arrays?
+
+# A Lot of this is Physics and not really an introduction to the language; it may jsut be using Physics, but 
+# outer products seem related to Tensors which relate to Vectors which is calculus level mathematics.
+# I'm not convinced a generic programmer needs that kind of math behind them yet.
+
+# Skipping to section 5.9 since I don't know all that much about linear algebra or matrices and they don't really
+# have anything to do with learning the R language right now.
+
+# This is the prefered notation for vector assignment?
+vector <- as.vector(x)
+# That's admittidely clearer to read, but vec <-c(x) is much simplier.
+
+?cut
+# converts a numeric to a factor
+
+# C6| Lists and Data Frames
+# Lists are an ordered collection of objects called components
+
+Lst <- list(name="Fred", wife="Mary", no.children=3, child.ages=c(4,7,9))
+
+# Playing with assumptions about value retrieval
+Lst[[1]]
+Lst[[2]]
+Lst[[4]]
+Lst[[4]][1]
+Lst[1]
+Lst[2]
+Lst[4]
+
+# If you create the list with ame= then you can use the $ to call it out of the list as an identifer.
+
+# attach() is awesome. It creates temp variables for the column names and places them as 2nd in the scopes.
+# I am totally going to use the hell out of that.
+
+# C7| Reading data from files
