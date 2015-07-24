@@ -10,7 +10,7 @@ Page #: 30
 ## R Programming Basics - 7/23/15
 Source: https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf
 Folder: /rProgramming/RForBeginners
-Page #: 14
+Page #: 32
 
 ## Wordpress Documentation - 7/24/15
 Source: https://codex.wordpress.org/Theme_Development

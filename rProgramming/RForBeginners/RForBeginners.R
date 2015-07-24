@@ -55,5 +55,71 @@ factorVariable <- factor(1:3)
 
 # Matrices
 matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
-
 # Always remember that R uses rows then columns for everything.
+# Let's mess around with matrices
+m <- matrix(1:20, 5, 4)
+
+
+# What is ts() for?
+
+# Expressions are awesome!
+quadraticExpP <- expression(-b + (sqrt(b*b -4*a*c)/2))
+quadraticExpM <- expression(-b - (sqrt(b*b -4*a*c)/2))
+
+# Remember that b,a,c needs to be defined!
+b <- 10; a <- 5; c <- 2;
+
+# eval will then use the expression!
+eval(quadraticExpP)
+eval(quadraticExpM)
+
+# let's put them in a function so it returns them both when you put them in.
+quadratic <- function(a,b,c){
+  c(eval(quadraticExpP), eval(quadraticExpM))
+}
+
+# It works, but doesn't include a case for negative numbers. But, oh well.
+
+# Changing object Types:
+##### Numeric:   as.numeric()
+#        FALSE - 0
+#         TRUE - 1
+#          "7" - 7
+#          "a" - NA
+##### Logical:   as.logical()
+#            0 - FALSE
+#     #'s != 0 - TRUE
+#      "FALSE" - FALSE
+#       "TRUE" - TRUE
+#      "CHARS" - NA
+##### Character  as.character()
+#          1,2 - "1", "2"
+#        FALSE - "TRUE"
+#         TRUE - "TRUE"
+
+# Boolean comparison's are applied against all items in a vector.
+
+# ACCESSING DATA! FINALLY!
+# Indexing with vectors is easy.
+# A matrix data can be acessed using m[i,j], where i=row;j=col.
+#    Make sure to include the comma at all time.
+
+# Negative indexes can be used to suppress rows/columns.
+
+# NOTE: You can use Boolean expressions to select against index values!
+#
+#  MATRIX
+#    col names: 
+#                 name1    name 2
+#    row names: 
+#       name 3      a       y
+#
+#       name 4      x       b
+#
+#   To get b, call MATRIX["name 4", "name 2"]
+
+# Whoa, there is a GUI data edit prog?
+# data.entry(x) ?
+data.entry(m)
+
+# That's pretty cool!

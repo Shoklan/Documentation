@@ -138,6 +138,6 @@ Lst[4]
 # If you create the list with ame= then you can use the $ to call it out of the list as an identifer.
 
 # attach() is awesome. It creates temp variables for the column names and places them as 2nd in the scopes.
-# I am totally going to use the hell out of that.
+# I am totally going to use that!
 
 # C7| Reading data from files
