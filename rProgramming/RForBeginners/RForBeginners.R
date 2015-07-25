@@ -123,3 +123,52 @@ quadratic <- function(a,b,c){
 data.entry(m)
 
 # That's pretty cool!
+data <- c(1,5,7987,10,7,1,5)
+
+# This will return the indexes instead of the elements.
+which.max(data)
+which.min(data)
+
+# We're going to go for a few test runs on cor()
+# dataset 2
+data2 <- c(1,1,1,5,1,1,1)
+cor(data,data2)
+
+# which is used for selection from a vector
+which(data == 1)
+
+
+# I don't know as much about matrixes and I'd like;
+# I could probably use the Khan academy lectures to teach myself this along with;
+# some R/Python code. Probably R since I can graph stuff faster.
+
+library(ggplot2)
+ggplot2(data)
+?ggplot2
+
+# GRRRR I need to learn about matrixes; I'm sure I have a ebook on it in my collection.
+?diag
+
+# GRAPHS!
+demo(graphics)
+
+mat <- matrix(1:4,2,2)
+
+# Practical example
+x <- rnorm(10)
+y <- rnorm(10)
+plot(x,y)
+
+
+# Skipping around a bit since I wont be using most of these graph types!
+# Statistics time at last!
+
+# Chapter 5 | Statistical Analyses with R
+
+data(InsectSprays)
+aov.spray <- aov(sqrt(InsectSprays$count) ~ InsectSprays$spray)
+
+x <- y <- rnorm(5)
+
+
+# 
