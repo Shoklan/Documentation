@@ -20,6 +20,10 @@ Relevant Data:
        * eval()        | call to evaluate expressions
        * REMEMBER indexing[rowFirst,columnSecond]
 
+## Understanding Statistics | Using R Language
+Source: Understanding Statistics: Concepts and Methods
+Folder: /rProgramming/StatsUnderstand
+
 
 ## Wordpress Documentation - 7/24/15
 Source: https://codex.wordpress.org/Theme_Development
