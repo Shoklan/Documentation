@@ -7,18 +7,18 @@ As the list of expands, I will keep adding, moving, and updating my opinions and
        Folder: /rProgramming/IntroToR
        Page #: 30
 Relevant Data: 
-       * Vectors = Variables
-       * ?[function]
-       * mode(variableName)  | Tells the kind of vector type
+* Vectors = Variables
+* ?[function]
+* mode(variableName)  | Tells the kind of vector type
 
 ## R Programming Basics - 7/23/15
        Source: https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf
        Folder: /rProgramming/RForBeginners
        Page #: Done.
 Relevant Data: 
-       * expression()
-       * eval()        | call to evaluate expressions
-       * REMEMBER indexing[rowFirst,columnSecond]
+* expression()
+* eval()        | call to evaluate expressions
+* REMEMBER indexing[rowFirst,columnSecond]
 
 ## Understanding Statistics | Using R Language
 Source: Understanding Statistics: Concepts and Methods
