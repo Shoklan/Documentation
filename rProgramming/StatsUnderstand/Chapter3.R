@@ -71,6 +71,24 @@ k <- c(1,2,3,4)
 chebyTheorum <- (1 - 1/k^2)
 print(chebyTheorum)
 
+# 3.3 Percentiles and Box-And-Whisker Plots
+# Interpret the meaning of percentile scores.
+# Compute the median, quartiles, and five-number summary from raw data
+# Make a box-and-whisker plot.
+# Describe how a box-and-whisker plot indicates spread of data about the median.
+
+
+# Q1 is the 25th percentile, [Median of lower half]
+# Q2 is the median,
+# Q3 is the 75th percentile. [Median of upper half]
+quartile<- c(.99, 1.07, 1.00, .5, .37, 1.03, 1.07, 1,07, .97, .63, .33, .5, .97, 1.08, .47, .84, 1.23, .25, .5, .4, .33, .35, .17, .38, .2, .18, .16)
+boxplot(quartile)
+
+# The interquartile range is Q3-Q1 .
+
+
+
+
 # Functions:
   # Calculate mode
 statMode <- function(x){
