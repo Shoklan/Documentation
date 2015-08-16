@@ -21,13 +21,15 @@ Relevant Data:
 * REMEMBER indexing[rowFirst,columnSecond]
 
 ## Understanding Statistics | Using R Language
-Source: Understanding Statistics: Concepts and Methods
-Folder: /rProgramming/StatsUnderstand
+		Source: Understanding Statistics: Concepts and Methods
+		Folder: /rProgramming/StatsUnderstand
+Relevant Data: TBL
 
 
 ## Wordpress Documentation - 7/24/15
-Source: https://codex.wordpress.org/Theme_Development
-Folder: /Wordpress
+		Source: https://codex.wordpress.org/Theme_Development
+		Folder: /Wordpress
+Relevant Data: TBL
 
 ## Think Python - 8/16/15
 Source: http://www.greenteapress.com/thinkpython/
