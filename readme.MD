@@ -28,3 +28,15 @@ Folder: /rProgramming/StatsUnderstand
 ## Wordpress Documentation - 7/24/15
 Source: https://codex.wordpress.org/Theme_Development
 Folder: /Wordpress
+
+## Think Python - 8/16/15
+Source: http://www.greenteapress.com/thinkpython/
+Folder: /Python/ThinkPython
+       Page #: ---
+Relevant Data: TBL
+
+## Think Python - 8/16/15
+Source: "Programming Python" | Mark Lutz ISBN-13: 978-0-596-00925-0
+Folder: /Python/ProgrammingPython
+       Page #: Done.
+Relevant Data: TBL
