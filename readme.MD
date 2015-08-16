@@ -29,12 +29,12 @@ Relevant Data: TBL
 ## Wordpress Documentation - 7/24/15
 		Source: https://codex.wordpress.org/Theme_Development
 		Folder: /Wordpress
+		Page #: Done.
 Relevant Data: TBL
 
 ## Think Python - 8/16/15
 		Source: http://www.greenteapress.com/thinkpython/
-		Folder: /Python/ThinkPython
-		Page #: ---
+		Folder: /Python/ThinkPythonPage #: ---
 Relevant Data: TBL
 
 ## Think Python - 8/16/15
