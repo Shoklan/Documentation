@@ -21,34 +21,35 @@ Relevant Data:
 * eval()        | call to evaluate expressions
 * REMEMBER indexing[rowFirst,columnSecond]
 
-### Handling and Processing Strings in R - 10/14/2015
+### Handling and Processing Strings in R - 10/14/15
 		Source: http://gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf
 		Folder: /rProgramming/StringsInR
 		Page #: Done.
-	Relevant Data:
-	* Set Functions:
-	    * union()
-		* intersect()
-		* setdiff()   | selective !union based on first variable.
-	* is.element() is cool, but %in% is better.
-	* metacharacters require "\\" escapes for regex
-	* stringr package has functions for regex:
-		* str_detect
-		* str_extract
-		* str_extract_all
-		* str_match
-		* str_locate
-		* str_locate_all
-		* str_replace
-		* str_replace_all
-		* str_split
-		* str_split_fixed
-	* wordcloud package
+Relevant Data:
+* Set Functions:
+    * union()
+	* intersect()
+	* setdiff()   | selective !union based on first variable.
+* is.element() is cool, but %in% is better.
+* metacharacters require "\\" escapes for regex
+* stringr package has functions for regex:
+	* str_detect
+	* str_extract
+	* str_extract_all
+	* str_match
+	* str_locate
+	* str_locate_all
+	* str_replace
+	* str_replace_all
+	* str_split
+	* str_split_fixed
+* wordcloud package
 
 ## Introduction to dplyr - 8/20/15
        Source: https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
        Folder: /rProgramming/IntroToDplyr
        Page #: N/A
+
 Relevant Data:
 * filter()    | Grab only the columns you care about in a dataframe.
 * slice()     | Grab rows based upon indexes.
@@ -63,7 +64,7 @@ Relevant Data:
 ## Understanding Statistics | Using R Language
 		Source: Understanding Statistics: Concepts and Methods
 		Folder: /rProgramming/StatsUnderstand
-Relevant Data: TBL
+Relevant Data : TBL
 
 # Web design
 
@@ -71,7 +72,7 @@ Relevant Data: TBL
 		Source: https://codex.wordpress.org/Theme_Development
 		Folder: /Wordpress
 		Page #: ---
-Relevant Data: TBL
+Relevant Data : TBL
 
 # Python 
 
@@ -80,16 +81,26 @@ Relevant Data: TBL
 		Folder: /Python/ThinkPythonPage #: ---
 Relevant Data: TBL
 
-## Think Python - 8/16/15
-		Source: "Programming Python" | Mark Lutz ISBN-13: 978-0-596-00925-0
-		Folder: /Python/ProgrammingPython
-		Page #: Done.
-Relevant Data: TBL
+## Programming Python - 8/16/15
+		Source : "Programming Python" by Mark Lutz
+		ISBN-13: 978-0-596-00925-0
+		Folder : /Python/ProgrammingPython
+		Page # : Done.
+Relevant Data  : TBL
 
 # C Programming
 
 ## Learn C the Hard Way - 10/15/15
 		Source: http://c.learncodethehardway.org/book/
 		Folder: /C/TheHardWay
-		Page: "Exercise 0: The Setup"
-Relevant Data: TBL
+		Page  : "Exercise 10: Arrays Of Strings, Looping"
+Relevant Data : TBL
+
+# Java Programming
+
+## Algorithms, 4th Edition - 10/29/15
+		Source: "Algorithms" by Robert Sedgewick
+		ISBN  : 978-0321573513
+		Folder: /Java/Algorithm
+		Page  : #48
+Relevant Data :
