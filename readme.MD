@@ -66,6 +66,29 @@ Relevant Data:
 		Folder: /rProgramming/StatsUnderstand
 Relevant Data : TBL
 
+## Shiny Tutorial
+		Source  : http://shiny.rstudio.com/tutorial/
+		Folder  : /rProgramming/Shiny
+		Progress: 1/7
+Relevant Data   :
+	* You can add any css value to any attribute function.
+	* Shiny uses Bootstrap, so columns are out of 12.
+	* functions	widget
+		1. actionButton	Action Button
+		2. checkboxGroupInput	A group of check boxes
+		3. checkboxInput	A single check box
+		4. dateInput	A calendar to aid date selection
+		5. dateRangeInput	A pair of calendars for selecting a date range
+		6. fileInput	A file upload control wizard
+		7. helpText	Help text that can be added to an input form
+		8. numericInput	A field to enter numbers
+		9. radioButtons	A set of radio buttons
+		10. selectInput	A box with choices to select from
+		11. sliderInput	A slider bar
+		12. submitButton	A submit button
+		13. textInput	A field to enter text
+
+
 # Web design
 
 ## Wordpress Documentation - 7/24/15
