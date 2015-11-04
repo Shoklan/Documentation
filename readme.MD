@@ -69,7 +69,7 @@ Relevant Data : TBL
 ## Shiny Tutorial
 		Source  : http://shiny.rstudio.com/tutorial/
 		Folder  : /rProgramming/Shiny
-		Progress: 1/7
+		Progress: Done.
 Relevant Data   :
 	* You can add any css value to any attribute function.
 	* Shiny uses Bootstrap, so columns are out of 12.
@@ -87,6 +87,7 @@ Relevant Data   :
 		11. sliderInput	A slider bar
 		12. submitButton	A submit button
 		13. textInput	A field to enter text
+	* connect widgets via their name to objects on the server.R
 
 
 # Web design
