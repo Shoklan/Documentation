@@ -128,3 +128,8 @@ Relevant Data : TBL
 		Folder: /Java/Algorithm
 		Page  : #100
 Relevant Data :
+
+# Projects:
+
+## Google Hangouts
+	Source: https://developers.google.com/+/hangouts/
