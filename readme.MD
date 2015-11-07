@@ -126,7 +126,7 @@ Relevant Data : TBL
 		Source: "Algorithms" by Robert Sedgewick
 		ISBN  : 978-0321573513
 		Folder: /Java/Algorithm
-		Page  : #100
+		Page  : #193
 Relevant Data :
 
 # Projects:
