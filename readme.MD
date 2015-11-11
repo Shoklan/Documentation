@@ -126,7 +126,7 @@ Relevant Data : TBL
 		Source: "Algorithms" by Robert Sedgewick
 		ISBN  : 978-0321573513
 		Folder: /Java/Algorithm
-		Page  : #220 / 931
+		Page  : #243 / 931
 Relevant Data :
 		- Basic Data Structures
 		- Predicting Algorithm Performance [Big O]
