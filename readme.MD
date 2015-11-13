@@ -1,5 +1,5 @@
 # Documentation
-This Repo is about consolditating all the different languages and technologies Documenation walkthroughs and placing them in one location.
+This Repo is about consolidating all the different languages, technology, Documenation, and walkthroughs placing them in one location.
 As the list of expands, I will keep adding, moving, and updating my opinions and experiences here.
 
 # R Language 
@@ -126,7 +126,7 @@ Relevant Data : TBL
 		Source: "Algorithms" by Robert Sedgewick
 		ISBN  : 978-0321573513
 		Folder: /Java/Algorithm
-		Page  : #243 / 931
+		Page  : #262 / 931
 Relevant Data :
 		- Basic Data Structures
 		- Predicting Algorithm Performance [Big O]
