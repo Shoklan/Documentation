@@ -15,6 +15,30 @@ public class Example{
 		}
 	}
 
+	public static void insertionSort(Compareable[] a){
+		// Sort a[] into increasing order.
+		int N = a.length;
+		for(int i = 1; i < N; i++){
+			// INsert a[i] among a[i-1], a[i-2], a[i-3]....
+			for(int j=i; j > 0 && less(a[j], a[j-1]); j--)
+				exch(a, j, j-1);
+		}
+	}
+
+	public static void shellSort(Compareable[] a){
+		// Sort a[] into increasing order.
+		int N = a.length;
+		int h = 1;
+		while(h < N/3) h = 3*h + 1
+		while(h >= 1){
+			for(int i = h; i < N; i++)
+				for(int j = i; j >= h && less(a[j], a[j-h]); j -= h)
+					exch(a, j, j-h);
+			}
+			h = h/3;
+		}
+	}
+
 	private static boolean less(Compareable v, Compareable w){ return v.CompareTo(w) < 0;}
 	private static void    exch(Compareable[] a, int i, int j){
 		Compareable t = a[i]; a[i] = a[j]; a[j] = t;
