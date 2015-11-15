@@ -34,9 +34,50 @@ public class Example{
 			for(int i = h; i < N; i++)
 				for(int j = i; j >= h && less(a[j], a[j-h]); j -= h)
 					exch(a, j, j-h);
-			}
-			h = h/3;
 		}
+		
+		h = h/3;
+	}
+
+	public static void mergeSort(Compareable[] a, int lo, int mid, int hi){
+		// Merge a[lo..mid] with a[mid+1..hi].
+		int i = lo, j= mid+1;
+
+		for(int k = lo; k <= hi; k++)
+			aux[k] = a[k];
+
+		for(int k = lo; k <= hi; k++){
+			if     (i > mid)              a[k] = aux[j++];
+			else if(j > hi)               a[k] = aux[i++];
+			else if(less(aux[j], aux[i])) a[k] = aux[j++];
+			else                          a[k] = aux[i++];
+		}
+	}
+
+	public static void quickSort(Compareable[] a){
+		StdRandom.shuffle(a);
+		quickSort(a, 0, a.length -1);
+	}
+
+	private static void quickSort(Compareable[] a, int lo, int hi){
+		if(hi <= lo) return;
+		int j = partition(a, lo, hi);
+		quickSort(a, lo, j-1);         // Sort left part a[lo .. j-1].
+		quickSort(a, j+1, hi);         // Sort right part a[j+1 .. hi].
+	}
+
+	private static int partition(Compareable[] a, int lo, int hi){
+		// Partition into a[lo .. i-1], a[i], a[i+1..hi].
+		int i = lo, j= hi+1
+		Compareable v = a[lo];
+		while(true){
+			while(less(a[++i], v)) if(i == hi) break;
+			while(less(v, a[--j])) if(j == lo) break;
+			if(i >= j) break;
+			exch(a, i, j);
+		}
+		exch(a, lo, j);
+		return j;
 	}
 
 	private static boolean less(Compareable v, Compareable w){ return v.CompareTo(w) < 0;}
@@ -63,5 +104,5 @@ public class Example{
 		sort(a);
 		assert isSorted(a);
 		show(a);
-	}	
+	}
 }

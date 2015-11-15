@@ -126,11 +126,26 @@ Relevant Data : TBL
 		Source: "Algorithms" by Robert Sedgewick
 		ISBN  : 978-0321573513
 		Folder: /Java/Algorithm
-		Page  : #262 / 931
+		Page  : #400 / 931
 Relevant Data :
 		- Basic Data Structures
 		- Predicting Algorithm Performance [Big O]
+		- Selection Sort
+		- Shell Sort
+		- Quick Sort
+		- Merge Sort
+
+
+# Go Programmin
+
+## Go Programming Language Documentation
+		Source: https://golang.org/doc/
+		Folder: /Go/Docs
+
+
+
 # Projects:
 
 ## Google Hangouts
 	Source: https://developers.google.com/+/hangouts/
+
