@@ -126,7 +126,7 @@ Relevant Data : TBL
 		Source: "Algorithms" by Robert Sedgewick
 		ISBN  : 978-0321573513
 		Folder: /Java/Algorithm
-		Page  : #343 / 931
+		Page  : #364 / 931
 Relevant Data :
 		- Basic Data Structures
 		- Predicting Algorithm Performance [Big O | Big Theta]
@@ -135,9 +135,11 @@ Relevant Data :
 		- Quick Sort
 		- Merge Sort
 		- Priority Queue
+		- Kendall Tau Distance - distance between two differently arranged arrays
+		- Symbol table = dictionary = indice
 
 
-# Go Programmin
+# Go Programming
 
 ## Go Programming Language Documentation
 		Source: https://golang.org/doc/
