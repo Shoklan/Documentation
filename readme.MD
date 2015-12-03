@@ -145,6 +145,10 @@ Relevant Data :
 		Source: https://golang.org/doc/
 		Folder: /Go/Docs
 
+## In Introduction to Programming in Go
+		Source: https://www.golang-book.com/public/pdf/gobook.0.pdf
+		Folder /Go/IntroToGo
+
 
 
 # Projects:
