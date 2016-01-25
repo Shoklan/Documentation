@@ -70,7 +70,7 @@ Relevant Data : TBL
 		Source  : http://shiny.rstudio.com/tutorial/
 		Folder  : /rProgramming/Shiny
 		Progress: Done.
-Relevant Data   :
+Relevant Data :
 	* You can add any css value to any attribute function.
 	* Shiny uses Bootstrap, so columns are out of 12.
 	* functions	widget
@@ -89,7 +89,13 @@ Relevant Data   :
 		13. textInput	A field to enter text
 	* connect widgets via their name to objects on the server.R
 
-
+## Machine Learning With R
+	Source  : "Machine Learning With R" By Brett Lantz
+	Folder  : /rProgramming/rMachineLearning/MLWithR
+	Progress: 6%
+	
+Relevant Data:
+	* 
 # Web design
 
 ## Wordpress Documentation - 7/24/15
