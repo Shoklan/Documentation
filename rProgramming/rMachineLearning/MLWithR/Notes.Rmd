@@ -1,0 +1,51 @@
+#-----------------------------------------------------------------
+# This are my personal notes about the Text "Machine Learning with R"
+# by Brett Lantz. I'll be splitting up the notes by chapters.
+
+#-------------------------
+# Quick Notes:
+##- C2
+# RMySQL requires libmysqlclient-dev to work.
+# RODBC resquires unixodbc-dev to work.
+
+## --------
+# Chapter 2
+
+# Installing package: libmyodbc on linux; need the mysql header to communicate.
+# Not Successful.
+
+# Installing package: r-cran-rodbc on linux.
+# Not successful.
+
+# Installing package: unixodbc on linux.
+# Not successful.
+
+# Installing package: libmyodbc on linux.
+# Already installed.
+
+# Installing package: odbc-postgresql on linux
+# Not Successful.
+
+# Installing package: r-cran-rmysql on linux.
+# Not Successful
+
+# Installing package: libmysqlclient-dev on linux.
+# SUCCESS: RMySQL works; trying RODBC.
+# Not Successful
+
+# Installing package: unixodbc-devel on linux.
+# SUCCESS: RODBC works.
+
+# Developed by Mike Ripley.
+install.packages("RODBC")
+library("RODBC")
+
+# I'm also bringing in RMySql.
+install.packages("RMySQL")
+# library("RMySQL")
+
+print(vignette("RODBC"))
+mydb = odbcConnect("my_dsn")
+
+# Import data file: usedcars.csv
+usedcars = read.csv("usedcars.csv", stringsAsFactors = FALSE)
