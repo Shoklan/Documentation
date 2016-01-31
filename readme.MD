@@ -136,15 +136,15 @@ Relevant Data : TBL
 		Folder: /Java/Algorithm
 		Page  : #378 / 931
 Relevant Data :
-		- Basic Data Structures
-		- Predicting Algorithm Performance [Big O | Big Theta]
-		- Selection Sort
-		- Shell Sort
-		- Quick Sort
-		- Merge Sort
-		- Priority Queue
-		- Kendall Tau Distance - distance between two differently arranged arrays
-		- Symbol table = dictionary = indice
+	- Basic Data Structures
+	- Predicting Algorithm Performance [Big O | Big Theta]
+	- Selection Sort
+	- Shell Sort
+	- Quick Sort
+	- Merge Sort
+	- Priority Queue
+	- Kendall Tau Distance - distance between two differently arranged arrays
+	- Symbol table = dictionary = indice
 
 
 # Go Programming
