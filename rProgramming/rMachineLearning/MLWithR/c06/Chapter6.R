@@ -7,7 +7,8 @@
 ##- Regression
 ##- cor()
 ##- pairs.panels()
-##- 
+##- rpart
+##- MAE
 
 #----------
 # Chapter 6
@@ -50,3 +51,35 @@ insurance$bmi30 <- ifelse(insurance$bmi >= 30, 1, 0)
 ins_model2 <- lm(charges ~ age + age2 + children + bmi + sex +
                    bmi30*smoker + region, data = insurance)
 summary(ins_model2)
+
+
+############
+# WINE
+####
+
+wine <- read.csv("whitewines.csv")
+
+str(wine)
+
+hist(wine$quality)
+
+wine_train = wine[1:3750, ]
+wine_test  = wine[3750:4898, ]
+
+library(rpart)
+m.rpart <- rpart(quality ~., data = wine_train)
+
+m.rpart
+
+# Mean Absolute Error:
+MAE <- function(actual, predicted){
+  mean(abs(actual - predicted))
+}
+
+library(RWeka)
+m.m5p <- M5P(quality ~ ., data = wine_train)
+
+p.m5p <- predict(m.m5p, wine_test)
+summary(p.m5p)
+cor(p.m5p, wine_test$quality)
+
