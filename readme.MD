@@ -97,6 +97,11 @@ Relevant Data :
 Relevant Data:
 *
 
+## Data Table Course
+		Source: https://www.datacamp.com/courses/data-analysis-the-data-table-way
+		Folder: dataTable
+		Progress: 
+
  
 # Web design
 
