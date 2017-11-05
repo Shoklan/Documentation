@@ -1,0 +1,1 @@
+Please see the original article: [here](http://charlesleifer.com/blog/how-to-make-a-flask-blog-in-one-hour-or-less/).
