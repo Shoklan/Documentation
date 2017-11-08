@@ -1,0 +1,35 @@
+
+
+
+- Most type checking functions are available in guards
+- You can define a function contingent on a guard.
+- Ex: `def credit( balance, amt) where amt > 0` works in a defmodule.
+- The pipeline operator `|>`.
+- ` [list_of_values] |> Enum.map(fn i -> i * 2 end)` is a valuable pattern.
+- You can convert a lson to a list using `parse_json_to_message_list()`.
+- `.exs` stands for *elixer script*.
+- The runs instead of compiles to byte code.
+- `c()` is a function that pulls modules into iex and compiles them.
+- A single quote means *string of characters* instead of double quotes.
+- Erlang has poor string support.
+- `!` in Elixir means *I throw an error on bad input*.
+- Elixir has emoji support XD.
+- `defp` means a private function.
+- `\\` means *default argument* in a function declaration.
+- You can re-alias names using `alias :math, as: Math:`.
+- This will map Erlang's math module to an Elixir friendly name.
+- You can also import all modules from a module, or selectively.
+- The format is `import Math, :only [pi: 0]`; where 0 is the arity of the module.
+- Macros are code that write code.
+- You can see the **Abstract Syntax Tree** by calling `quote()`.
+- You can get a last result using `v(-<n>)`.
+- Process Ids are at the heart of concurrency in Elixir.
+- Processes are the result of spawning a defined function.
+- When you've done that, you will get a process id number.
+- You can test if a process is alive using `Process.alive? <pid>`.
+- `spawn_link` will do something similar but will link you to the process spawned.
+- `after <n>` will crash your program is nothing happens for the specified <n> time; in milliseconds.
+- A **Mesh** is when you connect multiple Erlang Nodes together across multiple computers.
+- **OTP** stands for Open Telecom Platform.
+- You can install all updates using `mix deps.get` in a package.
+- A **Module Accessor** is like a constant and is defined with `@varname = [:hue, :turtle]`.
